@@ -16,8 +16,6 @@ MonoBehaviour:
   characterModel: {fileID: 21300000, guid: c6e26908b8e80054db1eeec5cfeb0535, type: 3}
   maxHp: 22
   maxStress: 200
-  currentHp: 906
-  currentStress: 0
   characterName: Calmette
   characterType: 3
   accuracy: 0
@@ -34,6 +32,24 @@ MonoBehaviour:
   moveRes: 20
   bleedRes: 20
   trapRes: 20
+  currentMaxHp: 112
+  currentMaxStress: 410
+  currentHp: 112
+  currentStress: 410
+  currentAccuracy: 36
+  currentCritChance: 26
+  currentMinDamage: 22
+  currentMaxDamage: 40
+  currentDodge: 22
+  currentProtection: 0
+  currentSpeed: 32
+  currentStunRes: 0
+  currentBlightRes: 0
+  currentDiseaseRes: 0
+  currentDeathBlowRes: 0
+  currentMoveRes: 0
+  currentBleedRes: 0
+  currentTrapRes: 0
   skills:
   - {fileID: 11400000, guid: ea94deb063a58fe49917a2b6e50bcbb7, type: 2}
   - {fileID: 11400000, guid: 6898ea2a25356a64b95ca8a8d60b366f, type: 2}

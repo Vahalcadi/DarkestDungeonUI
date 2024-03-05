@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c6e26908b8e80054db1eeec5cfeb0535, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2944bdccf91521d4786881e76ebdef46, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -88,4 +88,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2c5ad91ab089a24295fc54d9e5114f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: 15d68cfa6ccf1434e84dff06dcf7d903, type: 2}
+  character: {fileID: 11400000, guid: 58631ff56d50a134aa5f1280aa0151fc, type: 2}
+  emptyStressPip: {fileID: 21300000, guid: 082037563e224ad46a6eca2073f79eee, type: 3}
+  halfStressPip: {fileID: 21300000, guid: 72adfa033039c424dbf899f767d372a2, type: 3}
+  fullStressPip: {fileID: 21300000, guid: d4ee8f9f7973d4140b8cf91d51d858c8, type: 3}
+  hpSlider: {fileID: 0}
+  stressSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

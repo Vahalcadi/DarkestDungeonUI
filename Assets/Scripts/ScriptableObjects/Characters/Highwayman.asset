@@ -14,19 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterImage: {fileID: 21300000, guid: 9c6a518da9e33364baa12f95d1059c7d, type: 3}
   characterModel: {fileID: 21300000, guid: 2944bdccf91521d4786881e76ebdef46, type: 3}
-  maxHp: 152
-  maxStress: 230
-  currentHp: 152
-  currentStress: 0
+  maxHp: 23
+  maxStress: 200
   characterName: Gogo
   characterType: 2
   accuracy: 0
-  critChance: 47
-  minDamage: 26
-  maxDamage: 49
-  dodge: 100
+  critChance: 5
+  minDamage: 5
+  maxDamage: 10
+  dodge: 10
   protection: 0
-  speed: -1
+  speed: 5
   stunRes: 30
   blightRes: 30
   diseaseRes: 30
@@ -34,6 +32,24 @@ MonoBehaviour:
   moveRes: 30
   bleedRes: 30
   trapRes: 40
+  currentMaxHp: 132
+  currentMaxStress: 410
+  currentHp: 132
+  currentStress: 410
+  currentAccuracy: 0
+  currentCritChance: 38
+  currentMinDamage: 24
+  currentMaxDamage: 46
+  currentDodge: 80
+  currentProtection: 0
+  currentSpeed: 6
+  currentStunRes: 0
+  currentBlightRes: 0
+  currentDiseaseRes: 0
+  currentDeathBlowRes: 0
+  currentMoveRes: 0
+  currentBleedRes: 0
+  currentTrapRes: 0
   skills:
   - {fileID: 11400000, guid: 08d65753e45f367429e06aa8944f6838, type: 2}
   - {fileID: 11400000, guid: 79d1ffe540160e14aaae29cfe3b14727, type: 2}

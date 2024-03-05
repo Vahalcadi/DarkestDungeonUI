@@ -4,6 +4,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [HideInInspector] public Character character;
+    [HideInInspector] public Hero hero;
+
     [HideInInspector] public int random;
     [HideInInspector] public List<int> checkExtractedInts = new List<int>();
 
@@ -43,6 +45,14 @@ public class GameManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.P) && character != null)
             CharacterPanel.Instance.UpdateCharacterStatsValue(character);
+        if (Input.GetKeyDown(KeyCode.Q) && character != null)
+            CharacterPanel.Instance.IncreaseCurrentStressBy20(character);
+        if (Input.GetKeyDown(KeyCode.E) && character != null)
+            CharacterPanel.Instance.DecreaseCurrentStressBy20(character);
+        if (Input.GetKeyDown(KeyCode.A) && character != null)
+            CharacterPanel.Instance.IncreaseCurrentHpBy20(character);
+        if (Input.GetKeyDown(KeyCode.D) && character != null)
+            CharacterPanel.Instance.DecreaseCurrentHpBy20(character);
     }
 
     public void CheckExtractedCharacters()

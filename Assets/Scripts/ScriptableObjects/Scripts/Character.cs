@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu]
 public class Character : ScriptableObject
@@ -20,8 +21,7 @@ public class Character : ScriptableObject
     [Header("Hp and Stress")]
     public int maxHp;
     public int maxStress;
-    [HideInInspector] public int currentHp;
-    [HideInInspector] public int currentStress;
+    
 
     [Header("Stats")]
     public string characterName;
@@ -44,6 +44,25 @@ public class Character : ScriptableObject
     public int bleedRes;
     public int trapRes;
 
+    [Header("CurrentStats")]
+    public int currentMaxHp = 0;
+    public int currentMaxStress = 0;
+    public int currentHp = 0;
+    public int currentStress = 0;
+    public int currentAccuracy = 0;
+    public float currentCritChance = 0;
+    public int currentMinDamage = 0;
+    public int currentMaxDamage = 0;
+    public int currentDodge = 0;
+    public int currentProtection = 0;
+    public int currentSpeed = 0;
+    public int currentStunRes = 0;
+    public int currentBlightRes = 0;
+    public int currentDiseaseRes = 0;
+    public int currentDeathBlowRes = 0;
+    public int currentMoveRes = 0;
+    public int currentBleedRes = 0;
+    public int currentTrapRes = 0;
 
     [Header("Skills")]
     public List<Skills> skills;
