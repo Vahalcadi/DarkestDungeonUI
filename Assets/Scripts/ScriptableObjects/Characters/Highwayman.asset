@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38fb0175f3211d048b10e9baf7936a52, type: 3}
+  m_Name: Highwayman
+  m_EditorClassIdentifier: 
+  characterImage: {fileID: 21300000, guid: 9c6a518da9e33364baa12f95d1059c7d, type: 3}
+  characterModel: {fileID: 21300000, guid: 2944bdccf91521d4786881e76ebdef46, type: 3}
+  maxHp: 152
+  maxStress: 230
+  currentHp: 152
+  currentStress: 0
+  characterName: Gogo
+  characterType: 2
+  accuracy: 0
+  critChance: 47
+  minDamage: 26
+  maxDamage: 49
+  dodge: 100
+  protection: 0
+  speed: -1
+  stunRes: 30
+  blightRes: 30
+  diseaseRes: 30
+  deathBlowRes: 67
+  moveRes: 30
+  bleedRes: 30
+  trapRes: 40
+  skills:
+  - {fileID: 11400000, guid: 08d65753e45f367429e06aa8944f6838, type: 2}
+  - {fileID: 11400000, guid: 79d1ffe540160e14aaae29cfe3b14727, type: 2}
+  - {fileID: 11400000, guid: 7a7b94c11d5e31e498b1c4c9f8b9b61b, type: 2}
+  - {fileID: 11400000, guid: 5eea9bfd8f59fd946943897ec193b8b0, type: 2}
+  weapon: {fileID: 11400000, guid: e6e8745ba341ba841bac12c42bd5b3fb, type: 2}
+  armor: {fileID: 11400000, guid: ca8f211130ad43e448e949635ff2deca, type: 2}
+  trinket1: {fileID: 11400000, guid: 0980773f35f8760489c8b95f74c4952f, type: 2}
+  trinket2: {fileID: 11400000, guid: 589930829b391f24c956f905bc4f2c71, type: 2}

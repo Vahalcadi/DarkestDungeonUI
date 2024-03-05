@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38fb0175f3211d048b10e9baf7936a52, type: 3}
   m_Name: PlagueDoctor
   m_EditorClassIdentifier: 
-  characterImage: {fileID: 0}
-  characterModel: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: 7ca6ecdaa99b43f4e9e6fb1de517c45a, type: 3}
+  characterModel: {fileID: 21300000, guid: c6e26908b8e80054db1eeec5cfeb0535, type: 3}
   maxHp: 22
   maxStress: 200
-  currentHp: 0
+  currentHp: 906
   currentStress: 0
   characterName: Calmette
   characterType: 3
@@ -24,16 +24,22 @@ MonoBehaviour:
   critChance: 2
   minDamage: 4
   maxDamage: 7
-  dodge: 4
+  dodge: 0
   protection: 0
   speed: 7
-  stunRes: 0
-  blightRes: 0
-  diseaseRes: 0
-  deathBlowRes: 0
-  moveRes: 0
-  bleedRes: 0
-  trapRes: 0
-  skills: []
-  weapon: {fileID: 0}
-  armor: {fileID: 0}
+  stunRes: 20
+  blightRes: 60
+  diseaseRes: 50
+  deathBlowRes: 67
+  moveRes: 20
+  bleedRes: 20
+  trapRes: 20
+  skills:
+  - {fileID: 11400000, guid: ea94deb063a58fe49917a2b6e50bcbb7, type: 2}
+  - {fileID: 11400000, guid: 6898ea2a25356a64b95ca8a8d60b366f, type: 2}
+  - {fileID: 11400000, guid: 9b8ce80ff88e85a4bb8d1ae8ca0fa9ae, type: 2}
+  - {fileID: 11400000, guid: 686508c9c7e2fe1458720c2f800a27fd, type: 2}
+  weapon: {fileID: 11400000, guid: 82c3924f30dd9fb43b1cc2fb3b907db9, type: 2}
+  armor: {fileID: 11400000, guid: 76fb7cf33851bf644a9ea34f8694420f, type: 2}
+  trinket1: {fileID: 11400000, guid: 4c78db5133308554bbec921c94b97cd5, type: 2}
+  trinket2: {fileID: 11400000, guid: c70baec22d0e9fc4dbe1e74636beb282, type: 2}

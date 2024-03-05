@@ -1,7 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UI;
 
 [CreateAssetMenu]
 public class Character : ScriptableObject
@@ -15,8 +14,8 @@ public class Character : ScriptableObject
     }
 
     [Header("CharacterImageAndModel")]
-    public Image characterImage;
-    public Image characterModel;
+    public Sprite characterImage;
+    public Sprite characterModel;
 
     [Header("Hp and Stress")]
     public int maxHp;
@@ -35,6 +34,7 @@ public class Character : ScriptableObject
     public int protection;
     public int speed;
 
+
     [Header("Resistances")]
     public int stunRes;
     public int blightRes;
@@ -44,15 +44,14 @@ public class Character : ScriptableObject
     public int bleedRes;
     public int trapRes;
 
+
     [Header("Skills")]
     public List<Skills> skills;
 
     [Header("Equip and Trinkets")]
     public Weapon weapon;
     public Armor armor;
-
-    public void SetHp(int newCurrentHp) => currentHp = newCurrentHp; 
-    public void SetStress(int newCurrentStress) => currentStress = newCurrentStress;
-    public int GetHp() => currentHp;
-    public int GetStress() => currentStress;
+    public Trinkets trinket1;
+    public Trinkets trinket2;
+ 
 }

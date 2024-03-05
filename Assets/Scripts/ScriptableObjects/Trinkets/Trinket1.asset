@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb03db3abc5b0e740bafe48071028b12, type: 3}
+  m_Name: Trinket1
+  m_EditorClassIdentifier: 
+  trinketName: Blasphemous Vial
+  trinketIcon: {fileID: 21300000, guid: 82264a90481a6f446ad04b57c8f62db3, type: 3}
+  accuracy: 10
+  critChance: 0
+  dodge: 0
+  protection: 0
+  speed: 0
+  stunRes: 20
+  blightRes: 20
+  diseaseRes: 0
+  deathBlowRes: 0
+  moveRes: 0
+  bleedRes: 0
+  trapRes: 0

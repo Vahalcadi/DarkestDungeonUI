@@ -1,13 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 [CreateAssetMenu]
 public class Skills : ScriptableObject
 {
-    [Header("ability icon")]
-    public Image abilityIcon;
+    [Header("ability infos")]
+    public string abilityName;
+    public Sprite skillIcon;
 
     [Header("Ability Stats")]
     public int damage;

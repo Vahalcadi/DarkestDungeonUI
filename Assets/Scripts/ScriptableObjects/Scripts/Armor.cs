@@ -1,15 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "Armor", menuName = "Equip/Armor")]
 public class Armor : ScriptableObject
 {
-    [Header("ArmorImage")]
-    public Image armorImage;
+    [Header("ArmorInfos")]
+    public string armorName;
+    public Sprite armorImage;
 
     [Header("ArmorStats")]
+    public int level;
     public int maxHp;
     public int dodge;
 }
