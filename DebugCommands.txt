@@ -1,0 +1,24 @@
+//-------Player Debug Commands--------//
+Press C to instantiate heroes
+Press P to update character stats values
+Press Q to increase stress by 20
+Press E to decrease stress by 20
+Press A to increase helath by 20
+Press D to increase helath by 20
+
+//-------Enemy Debug Commands--------//
+Press C to instantiate enemies
+Press F to increase hovered enemy hp by 20
+Press G to decrease hovered enemy hp by 20
+Press H to increase all hovered enemy stats by 10
+Press I to decrease all hovered enemy stats by 10
+
+//-------Other Debug Commands--------//
+Press Esc to quit application
+Press Tab to switch between map panel and inventory panel
+Press J to increase turn counter up to a max of 10 
+Press K to decrease turn counter down to a min of 1
+
+//-------Scene Buttons-------------//
+Select a Hero, then press ability n°5 to swap party members between each other
+Select a Hero, then press red X button to recieve stress

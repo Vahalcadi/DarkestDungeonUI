@@ -125,7 +125,6 @@ public class CharacterPanel : MonoBehaviour
         character.currentProtection = character.protection + character.trinket1.protection + character.trinket2.protection;
         character.currentSpeed = character.speed + character.weapon.speed + character.trinket1.speed + character.trinket2.speed;
 
-        UpdateCharacterStatsUI(character);
     }
     public void UpdateCharacterStatsValue(Character character)
     {

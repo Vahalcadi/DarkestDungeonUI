@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38fb0175f3211d048b10e9baf7936a52, type: 3}
+  m_Name: Arbalest
+  m_EditorClassIdentifier: 
+  characterImage: {fileID: 21300000, guid: 6911278491a7caa4e93e6d48ef01aae2, type: 3}
+  characterModel: {fileID: 21300000, guid: d7f99c988c1b1ad429ddd46bfc6dd8f0, type: 3}
+  maxHp: 27
+  maxStress: 200
+  characterName: Chabba
+  characterType: 0
+  accuracy: 0
+  critChance: 6
+  minDamage: 4
+  maxDamage: 8
+  dodge: 0
+  protection: 0
+  speed: 3
+  stunRes: 40
+  blightRes: 30
+  diseaseRes: 30
+  deathBlowRes: 67
+  moveRes: 40
+  bleedRes: 30
+  trapRes: 10
+  currentMaxHp: 0
+  currentMaxStress: 0
+  currentHp: 0
+  currentStress: 0
+  currentAccuracy: 0
+  currentCritChance: 0
+  currentMinDamage: 0
+  currentMaxDamage: 0
+  currentDodge: 0
+  currentProtection: 0
+  currentSpeed: 0
+  currentStunRes: 0
+  currentBlightRes: 0
+  currentDiseaseRes: 0
+  currentDeathBlowRes: 0
+  currentMoveRes: 0
+  currentBleedRes: 0
+  currentTrapRes: 0
+  skills:
+  - {fileID: 11400000, guid: f70e6f461836c5e498d12f8f4e6ff95a, type: 2}
+  - {fileID: 11400000, guid: 59a0108e66a0a024baafad1d5b3d08fb, type: 2}
+  - {fileID: 11400000, guid: 19d5f37272d79e74aa74940695547925, type: 2}
+  - {fileID: 11400000, guid: 7d2720b0f1b53b748a8f3c2fe6a3de3a, type: 2}
+  weapon: {fileID: 11400000, guid: 905eeadf7f3ee2f408a438096ee97c45, type: 2}
+  armor: {fileID: 11400000, guid: 8496c1a0eea00ed45af7f29ee27feb37, type: 2}
+  trinket1: {fileID: 11400000, guid: c70baec22d0e9fc4dbe1e74636beb282, type: 2}
+  trinket2: {fileID: 11400000, guid: 0980773f35f8760489c8b95f74c4952f, type: 2}

@@ -54,6 +54,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 15d68cfa6ccf1434e84dff06dcf7d903, type: 2}
     - target: {fileID: -518375123386871189, guid: a5a32eeb05aed334099b81975e0ed923, type: 3}
+      propertyPath: selectionSprite
+      value: 
+      objectReference: {fileID: 986181540989053669}
+    - target: {fileID: -518375123386871189, guid: a5a32eeb05aed334099b81975e0ed923, type: 3}
       propertyPath: stressSlots.Array.size
       value: 10
       objectReference: {fileID: 0}
@@ -349,7 +353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5625871088472730428, guid: 93e7834605ff5824aa6f1fc1d1346000, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5979310875661766689, guid: 93e7834605ff5824aa6f1fc1d1346000, type: 3}
       propertyPath: m_Interactable
@@ -490,6 +494,17 @@ MonoBehaviour:
 --- !u!114 &685561033442304149 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4938443693108804755, guid: 93e7834605ff5824aa6f1fc1d1346000, type: 3}
+  m_PrefabInstance: {fileID: 5551665651965828102}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &986181540989053669 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4658099281521686243, guid: 93e7834605ff5824aa6f1fc1d1346000, type: 3}
   m_PrefabInstance: {fileID: 5551665651965828102}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
